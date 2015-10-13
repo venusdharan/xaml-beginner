@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantManager", "RestaurantManager", "{7C3CAB52-4AA8-40B2-AC97-E91C83E4CABF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RestaurantManager.Shared", "RestaurantManager\RestaurantManager.Shared\RestaurantManager.Shared.vcxitems", "{B0AA7AA0-C05C-4D91-B219-8813C8709E29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RestaurantManager.Windows", "RestaurantManager\RestaurantManager.Windows\RestaurantManager.Windows.vcxproj", "{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RestaurantManager.WindowsPhone", "RestaurantManager\RestaurantManager.WindowsPhone\RestaurantManager.WindowsPhone.vcxproj", "{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RestaurantManager\RestaurantManager.Shared\RestaurantManager.Shared.vcxitems*{c6ce8d8c-247a-4cdf-b3ba-75d4ff9503a2}*SharedItemsImports = 4
+		RestaurantManager\RestaurantManager.Shared\RestaurantManager.Shared.vcxitems*{1ee9d70c-754d-4ff5-af50-cba4da923467}*SharedItemsImports = 4
+		RestaurantManager\RestaurantManager.Shared\RestaurantManager.Shared.vcxitems*{b0aa7aa0-c05c-4d91-b219-8813c8709e29}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|ARM.Build.0 = Debug|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x64.ActiveCfg = Debug|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x64.Build.0 = Debug|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x64.Deploy.0 = Debug|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x86.Build.0 = Debug|Win32
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Debug|x86.Deploy.0 = Debug|Win32
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|ARM.ActiveCfg = Release|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|ARM.Build.0 = Release|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|ARM.Deploy.0 = Release|ARM
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x64.ActiveCfg = Release|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x64.Build.0 = Release|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x64.Deploy.0 = Release|x64
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x86.ActiveCfg = Release|Win32
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x86.Build.0 = Release|Win32
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2}.Release|x86.Deploy.0 = Release|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|ARM.Build.0 = Debug|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|x64.ActiveCfg = Debug|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|x86.Build.0 = Debug|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Debug|x86.Deploy.0 = Debug|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|ARM.ActiveCfg = Release|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|ARM.Build.0 = Release|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|ARM.Deploy.0 = Release|ARM
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|x64.ActiveCfg = Release|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|x86.ActiveCfg = Release|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|x86.Build.0 = Release|Win32
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0AA7AA0-C05C-4D91-B219-8813C8709E29} = {7C3CAB52-4AA8-40B2-AC97-E91C83E4CABF}
+		{C6CE8D8C-247A-4CDF-B3BA-75D4FF9503A2} = {7C3CAB52-4AA8-40B2-AC97-E91C83E4CABF}
+		{1EE9D70C-754D-4FF5-AF50-CBA4DA923467} = {7C3CAB52-4AA8-40B2-AC97-E91C83E4CABF}
+	EndGlobalSection
+EndGlobal
